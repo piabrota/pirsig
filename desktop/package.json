@@ -9,7 +9,7 @@
     "tauri": "tauri"
   },
   "devDependencies": {
-    "@playwright/test": "1.64.1",
+    "@playwright/test": "1.65.0",
     "@tauri-apps/cli": "2.12.4"
   },
   "license": "MPL-2.0"
