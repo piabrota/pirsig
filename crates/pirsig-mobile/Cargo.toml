@@ -16,7 +16,7 @@ serde = { version = "1", features = ["derive"] }
 serde_json = { version = "1" }
 # must be the version of the wasm-bindgen CLI that builds the page (scripts/build-mobile-ui.sh)
 wasm-bindgen = { version = "=0.2.129" }
-gloo-net = { version = "0.7", default-features = false, features = ["http", "json"] }
+gloo-net = { version = "0.8", default-features = false, features = ["http", "json"] }
 js-sys = { version = "0.3" }
 web-sys = { version = "0.3", features = ["MediaQueryList", "MediaQueryListEvent", "Window", "Location", "HtmlElement", "Element", "Document"] }
 console_error_panic_hook = { version = "0.1.7" }
